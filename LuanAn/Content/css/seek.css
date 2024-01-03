@@ -1,0 +1,366 @@
+body
+{
+    position: relative;
+}
+
+#body
+{
+    position: relative;
+    z-index: 1;
+    min-height: 55vh;
+}
+
+#ip-search
+{
+    padding-left: 10px !important;
+}
+
+#btn-updates
+{
+    display: flex;
+    width: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.btnclose
+{
+    position: relative;
+    right: -300px;
+    bottom: 10px;
+}
+
+.bl-search
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#f-search
+{
+    width: auto;
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+    top: 0;
+    padding: 20px;
+}
+
+.show3
+{
+    transition: all 0.5s ease-in-out;
+    top: 250px !important;
+    z-index: 11 !important;
+}
+
+ion-icon   
+{
+    font-size: 20px;
+}
+
+#bg-transp
+{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute !important;
+    opacity: 0;
+    background-color: #92929286;
+    transition: all 0.6s ease-in-out;
+}
+
+.hidden2
+{
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.show2
+{
+    top: 25% !important;
+    opacity: 1;
+    z-index: 11;
+    transition: all 0.6s ease-in-out;
+}
+
+.show-trans
+{
+    top: 0 !important;
+    opacity: 1 !important;
+    z-index: 10 !important;
+    position: absolute !important;
+}
+
+#tb-lop
+{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    border:1px;
+    margin: 0;
+}
+
+#de-hidden
+{
+    width: 0;
+    position: relative;
+    opacity: 0;
+}
+
+#update
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 95%;
+    width: 70px;
+    justify-content: space-around;
+}
+
+.f-header
+{
+    pointer-events: none;
+}
+
+#tb-lop input
+{
+    border: none;
+}
+
+#de-hidden ion-icon
+{
+    font-size: 0;
+}
+
+.de-hidden-show
+{
+    transition: all 0.3 ease-in;
+    left: 0;
+    opacity: 1 !important;
+    width: auto !important;
+}
+.de-hidden-show ion-icon
+{
+    font-size: 20px !important;
+}
+
+#de-hidden button
+{
+    top: 2px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    left: -25px;
+    z-index: -1;
+}
+
+.de-hidden-show button
+{
+    left: 5px !important;
+    transition: all 0.3 ease-in;
+    width: 35px !important;
+    height: auto !important;
+}
+
+#ddelete
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.hidden1
+{
+    width: 0;
+    position: absolute;
+    transition: all 0.3 ease-in;
+    padding: 0 !important;
+    opacity: 0;
+    /* pointer-events: none; */
+}
+.hidden1 .cb-IDLop
+{
+    width: 0;
+}
+
+
+.lbl-Export
+{
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    background-color: #fff;
+    display: inline-block;
+    color: #337ab7;
+    padding: 0 3px;
+}
+
+
+.show1
+{
+    opacity: 1;
+    width: auto;
+    position: relative;
+    transition: all 0.3 ease-in;
+    padding: auto !important;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.show1 input
+{
+    z-index: 99 !important;
+}
+
+.show1 .cb-IDLop
+{
+    pointer-events: fill;
+    width: auto;
+}
+
+#block-import
+{
+    width: 350px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+#inf
+{
+    display: flex;
+}
+
+#ins-form
+{
+    top: 18%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: auto;
+    padding: 20px 80px;
+}
+
+.cus-header
+{
+    font-weight: bold;
+    color: #AC1818;
+    font-size: 15px;
+    padding: 6px 15px;
+}
+
+.cus-boder {
+    border-top: 1px solid #dfdfdf;
+    line-height: 30px;
+    height: 30px;
+}
+
+.form-outline
+{
+    width: 100%;
+    position: relative;
+}
+
+.form-label,
+.form-label1
+{
+    position: absolute;
+    left: 14px;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+    color: #999;
+    pointer-events: none;
+}
+
+.form-label1
+{
+    top: 8px;
+    left: 14px;
+    transition: all .5s ease;
+    font-size: 14px;
+    background-color: #fff;
+    display: inline-block;
+    color: #337ab7;
+    padding: 0 3px; 
+}
+
+.form-outline1
+{
+    position: relative;
+    width: auto;
+}
+
+.add-r
+{
+    width: 100%;
+}
+
+.form1,
+.i-icb
+{
+    position: relative;
+    border-radius: 3px;
+    transition: all .5s ease-in-out;
+    width: 100%;
+}
+
+.form1:focus
+{
+    /* border-color: #6a5af9; */
+    border-color: #337ab7;
+    background-color: #4298e423;
+}
+
+/* .bgtitle */
+/*Thoả đk khi placehoder-shown = true (có hiển thị pl) => trg input placehoder=" " chỉ ăn css khi ip mất placehoder*/
+.form1:not(:placeholder-shown) + .form-label,
+.form1:focus + .form-label
+{
+    top: 8px;
+    left: 15px;
+    transition: all .5s ease;
+    font-size: 14px;
+    background-color: #fff;
+    display: inline-block;
+    color: #337ab7;
+    padding: 0 3px; 
+}
+
+.form1:not(:placeholder-shown) + .lbli,
+.form1:focus + .lbli
+{
+    left: 5px;
+    top: 0px !important;
+    padding: 0 5px;
+    line-height: 14px;
+}
+
+.form-label
+{
+    font-size: 14px;
+}
+
+.input-group
+{
+    padding: 25px 20%;
+    display: flex;
+    justify-content: center;
+}
+
